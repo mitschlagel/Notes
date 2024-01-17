@@ -13,6 +13,8 @@
 		F738BE1C2B5768F100D3021D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F738BE1A2B5768F100D3021D /* Main.storyboard */; };
 		F738BE1E2B5768F400D3021D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F738BE1D2B5768F400D3021D /* Assets.xcassets */; };
 		F738BE212B5768F400D3021D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F738BE1F2B5768F400D3021D /* LaunchScreen.storyboard */; };
+		F738BE292B5769B900D3021D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738BE282B5769B900D3021D /* Note.swift */; };
+		F738BE2B2B5771DF00D3021D /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738BE2A2B5771DF00D3021D /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F738BE1D2B5768F400D3021D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F738BE202B5768F400D3021D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F738BE222B5768F400D3021D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F738BE282B5769B900D3021D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F738BE2A2B5771DF00D3021D /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F738BE1D2B5768F400D3021D /* Assets.xcassets */,
 				F738BE1F2B5768F400D3021D /* LaunchScreen.storyboard */,
 				F738BE222B5768F400D3021D /* Info.plist */,
+				F738BE282B5769B900D3021D /* Note.swift */,
+				F738BE2A2B5771DF00D3021D /* NoteViewController.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				F738BE192B5768F100D3021D /* ViewController.swift in Sources */,
 				F738BE152B5768F100D3021D /* AppDelegate.swift in Sources */,
 				F738BE172B5768F100D3021D /* SceneDelegate.swift in Sources */,
+				F738BE2B2B5771DF00D3021D /* NoteViewController.swift in Sources */,
+				F738BE292B5769B900D3021D /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
